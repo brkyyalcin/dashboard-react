@@ -2,6 +2,8 @@ import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
+import { GiModernCity } from 'react-icons/gi';
+import {MdOutlineSports} from 'react-icons/md'
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
@@ -470,6 +472,19 @@ export const employeesGrid = [
 ];
 
 export const links = [
+  {
+    title: 'Admin',
+    links: [
+      {
+        name: 'Sporlar',
+        icon: <MdOutlineSports />,
+      },
+      {
+        name: 'Tesisler',
+        icon: <GiModernCity />,
+      }
+    ],
+  },
   {
     title: 'Dashboard',
     links: [
